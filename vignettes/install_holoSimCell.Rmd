@@ -1,0 +1,33 @@
+---
+title: "Install Holosim"
+author: "AES"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Installing holoSimCell}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Installing the holoSim simulator
+
+The holoSim simulator is written mostly in R with a few c++ routines used in an attempt to increase speed.  It can run on a laptop, though probably only as a demonstration or with small problems.
+
+###To install on your machine (regardless of operating system):
+
+*  Install a recent version of R (3.6.1 best) (https://cran.r-project.org/)
+*  Install a recent version of an IDE (Rstudio most common: https://www.rstudio.com/)
+*  Follow instructions for your OS below
+
+####Windows 
+
+This has been tested on windows 10, there may be problems with earlier versions
+
+*  Install Rtools (https://cran.r-project.org/bin/windows/Rtools/Rtools35.exe).  Rtools is used for compiling c/c++/ and fortran-based packages (like holoSimCell)
+
+####Mac 
+
