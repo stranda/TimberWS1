@@ -1,0 +1,40 @@
+---
+title: "Introduction"
+author: "AES"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction document
+
+###Objectives
+
+###Literature
+
+To see the literature packaged for the workshop, run 'browsePapers()' after loading the package:
+
+```{r eval=F}
+library(TimberWS1)
+browsePapers()
+```
+
+
+###Software
+
+You have already installed this package probably, but here is a reminder on how to do it:
+```{r eval=F}
+devtools::install_github("stranda/TimberWS1", build_opts = c("--no-resave-data", "--no-manual"))
+```
+
+####Installing the main software chain
+Please refer to the install_holoSimCell vignette
+
+###Other?
