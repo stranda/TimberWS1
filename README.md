@@ -11,4 +11,5 @@ This might ask you to install a couple of packages but it should not take too lo
 After install, try:
 
 library(TimberWS1)
+
 browseVignettes("TimberWS1")
