@@ -2,7 +2,9 @@
 
 A collection of documents, examples, and data for the Aug 2019 Workshop
 
-You can install this package in a running R session by typing:
+You can install this package in a running R session by typing the next two lines:
+
+Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS="true")
 
 devtools::install_github("stranda/TimberWS1",build_opts=c(""),force=T)
 
