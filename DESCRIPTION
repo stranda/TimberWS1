@@ -3,7 +3,10 @@ Title: R Package for the Timber workshop in Aug 2019
 Version: 0.0.0.1
 Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
 Description: Provide examples, documentation, literature, and data
-Depends: R (>= 3.6.0)
+Depends: R (>= 3.6.0),
+         knitr,
+         rmarkdown,
+         markdown
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

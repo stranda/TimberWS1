@@ -5,5 +5,8 @@
 #'
 browsePapers <- function()
 {
-
+  pkgroot <- system.file(package="TimberWS1")
+  ht <- paste0(getwd(),"/Literature.html")
+  rmarkdown::render(input=paste0(pkgroot,"/extdata/papers/Literature.Rmd"),output_file=ht)
+  browseURL(paste0("file://",ht))
 }
