@@ -1,0 +1,27 @@
+---
+title: "Workshop Literature"
+author: "AES"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Links to papers}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(TimberWS1)
+```
+
+## Papers for Workshop Aug 2019
+
+###Really should read before workshop
+
+Hoban et al 2019
+```{r echo=F, results="asis"}
+cat(paste0("file://",system.file(package="TimberWS1"),"/extdata/papers/Hoban_et_al_2019.pdf"))
+```
+
+
+###Important support docs
